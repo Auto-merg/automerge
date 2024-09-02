@@ -8,11 +8,11 @@ app = Flask(__name__)
 # GitHub configuration
 GITHUB_API_URL = "https://api.github.com/repos/{owner}/{repo}/branches"
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # Ensure this is set in your environment
-REPO_OWNER = "anirudhb2002"  # Replace with your actual GitHub username
+REPO_OWNER = "Auto-merg"  # Replace with your actual GitHub username
 REPO_NAME = "automerge"  # Replace with your actual repository name
 
 # Local repository path
-repo_path = '/Users/anirudhbhaskar/Documents/Project/automerge'
+repo_path = '/home/harib/Projects/automerge'
 repo = git.Repo(repo_path)
 
 main_branch = 'main'  # Define main branch
