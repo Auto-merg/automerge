@@ -1,3 +1,5 @@
+![Python application](https://github.com/Auto-merg/automerge/actions/workflows/python-app.yml/badge.svg)
+
 # Automated Bug Fix Propagation
 
 This project includes a tool for automatically propagating bug fixes across different branches. The goal is to ensure that bug fixes from one branch are merged into subsequent branches and eventually into the main branch.
